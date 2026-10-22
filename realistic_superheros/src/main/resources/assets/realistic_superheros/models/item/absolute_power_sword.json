@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {"layer0": "realistic_superheros:item/absolute_power_sword"}
+}

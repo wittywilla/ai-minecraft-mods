@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "realistic_superheros",
+	"version": "${version}",
+	"name": "Realistic Superheros",
+	"description": "Craftable superhero armor, tools, weapons, and powers for survival worlds.",
+	"authors": [
+		"WittyWilla"
+	],
+	"contact": {
+		"homepage": "https://github.com/wittywilla"
+	},
+	"license": "MIT",
+	"icon": "assets/realistic_superheros/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"realistic_superheros.willow.RealisticSuperheros"
+		],
+		"client": [
+			"realistic_superheros.willow.client.RealisticSuperherosClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

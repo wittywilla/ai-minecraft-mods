@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" E ", " N ", " S "],
+  "key": {
+    "E": {"item": "minecraft:echo_shard"},
+    "N": {"item": "minecraft:netherite_ingot"},
+    "S": {"item": "minecraft:nether_star"}
+  },
+  "result": {"item": "realistic_superheros:absolute_power_sword", "count": 1}
+}

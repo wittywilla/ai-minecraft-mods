@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {"layer0": "realistic_superheros:item/aerial_flight_helmet"}
+}

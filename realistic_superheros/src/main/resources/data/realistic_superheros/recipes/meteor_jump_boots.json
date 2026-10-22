@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["D D", "DPD"],
+  "key": {
+    "D": {"item": "minecraft:diamond"},
+    "P": {"item": "minecraft:rabbit_foot"}
+  },
+  "result": {"item": "realistic_superheros:meteor_jump_boots", "count": 1}
+}

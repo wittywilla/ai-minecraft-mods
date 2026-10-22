@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["P P", "PDC", "PPP"],
+  "key": {
+    "P": {"item": "minecraft:phantom_membrane"},
+    "D": {"item": "minecraft:diamond"},
+    "C": {"item": "minecraft:orange_dye"}
+  },
+  "result": {"item": "realistic_superheros:velocity_chestplate_iv", "count": 1}
+}
