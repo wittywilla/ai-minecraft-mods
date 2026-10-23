@@ -78,55 +78,9 @@ These vanilla ingredient images were extracted from the Minecraft 26.3 client as
 
 ### Visual Recipe Cards
 
-These cards use the same 3x3 grid and output-slot layout as the Minecraft crafting interface. Every card is generated from the corresponding recipe pattern and includes the real ingredient and output icons.
+These cards use the same 3x3 grid and output-slot layout as the Minecraft crafting interface. Every card is generated from the corresponding recipe pattern and includes the real ingredient and output icons. They are combined into one background atlas so GitHub renders the complete recipe set as a single image.
 
-![Velocity Chestplate I recipe](docs/recipe-assets/recipes/velocity_chestplate_i.png)
-
-![Velocity Chestplate II recipe](docs/recipe-assets/recipes/velocity_chestplate_ii.png)
-
-![Velocity Chestplate III recipe](docs/recipe-assets/recipes/velocity_chestplate_iii.png)
-
-![Velocity Chestplate IV recipe](docs/recipe-assets/recipes/velocity_chestplate_iv.png)
-
-![Velocity Chestplate V recipe](docs/recipe-assets/recipes/velocity_chestplate_v.png)
-
-![Aerial Flight Helmet recipe](docs/recipe-assets/recipes/aerial_flight_helmet.png)
-
-![Titan Strength Leggings recipe](docs/recipe-assets/recipes/titan_strength_leggings.png)
-
-![Meteor Jump Boots recipe](docs/recipe-assets/recipes/meteor_jump_boots.png)
-
-![Absolute Power Sword recipe](docs/recipe-assets/recipes/absolute_power_sword.png)
-
-![Solar Vision Visor recipe](docs/recipe-assets/recipes/solar_vision_visor.png)
-
-![Deep Sea Mask recipe](docs/recipe-assets/recipes/deep_sea_mask.png)
-
-![Flameguard Chestplate recipe](docs/recipe-assets/recipes/flameguard_chestplate.png)
-
-![Shadow Cloak recipe](docs/recipe-assets/recipes/shadow_cloak.png)
-
-![Kinetic Bracers recipe](docs/recipe-assets/recipes/kinetic_bracers.png)
-
-![Guardian Greaves recipe](docs/recipe-assets/recipes/guardian_greaves.png)
-
-![Skywalker Boots recipe](docs/recipe-assets/recipes/skywalker_boots.png)
-
-![Aquatic Fins recipe](docs/recipe-assets/recipes/aqua_fins.png)
-
-![Thunder Hammer recipe](docs/recipe-assets/recipes/thunder_hammer.png)
-
-![Life Staff recipe](docs/recipe-assets/recipes/life_staff.png)
-
-![Frostfall Cape recipe](docs/recipe-assets/recipes/frostfall_cape.png)
-
-![Gravity Pickaxe recipe](docs/recipe-assets/recipes/gravity_pickaxe.png)
-
-![Builder Gauntlet recipe](docs/recipe-assets/recipes/builder_gauntlet.png)
-
-![Timekeeper Watch recipe](docs/recipe-assets/recipes/timekeeper_watch.png)
-
-![Phase Compass recipe](docs/recipe-assets/recipes/phase_compass.png)
+![All Realistic Superheros crafting recipes](docs/recipe-assets/recipe-cards-atlas.png)
 
 The cards can be regenerated from the current resource set with `tools/generate_recipe_cards.sh`.
 

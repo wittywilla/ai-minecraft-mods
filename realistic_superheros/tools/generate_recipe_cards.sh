@@ -64,3 +64,5 @@ render gravity_pickaxe "Gravity Pickaxe" gravity_pickaxe "echo_shard,echo_shard,
 render builder_gauntlet "Builder Gauntlet" builder_gauntlet "iron_ingot,redstone,iron_ingot" "iron_ingot,diamond,iron_ingot" "iron_ingot,redstone,iron_ingot"
 render timekeeper_watch "Timekeeper Watch" timekeeper_watch "_,gold_ingot,_" "gold_ingot,clock,gold_ingot" "_,gold_ingot,_"
 render phase_compass "Phase Compass" phase_compass "_,amethyst_shard,_" "amethyst_shard,ender_pearl,amethyst_shard" "_,amethyst_shard,_"
+
+montage "$cards"/*.png -tile 3x -geometry +20+20 -background "#0d1117" "$root/docs/recipe-assets/recipe-cards-atlas.png"
