@@ -10,11 +10,11 @@ mkdir -p "$cards"
 render() {
     local name="$1" label="$2" output="$3" row1="$4" row2="$5" row3="$6"
     local card="$cards/$name.png"
-    convert -size 440x170 xc:"#171b24" \
+    convert -size 440x220 xc:"#171b24" \
         -fill "#252c3a" -stroke "#667085" -strokewidth 2 \
-        -draw "rectangle 18,18 72,72 rectangle 76,18 130,72 rectangle 134,18 188,72 rectangle 18,76 72,130 rectangle 76,76 130,130 rectangle 134,76 188,130 rectangle 18,134 72,160 rectangle 76,134 130,160 rectangle 134,134 188,160" \
+        -draw "rectangle 18,18 72,72 rectangle 76,18 130,72 rectangle 134,18 188,72 rectangle 18,76 72,130 rectangle 76,76 130,130 rectangle 134,76 188,130 rectangle 18,134 72,188 rectangle 76,134 130,188 rectangle 134,134 188,188" \
         -fill white -stroke none -draw "line 245,88 335,88" -draw "polyline 325,78 335,88 325,98" \
-        -pointsize 17 -annotate +215+140 "$label" "$card"
+        -pointsize 17 -annotate +215+205 "$label" "$card"
 
     local row=0 cells token icon col
     for cells in "$row1" "$row2" "$row3"; do
